@@ -1,36 +1,52 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## 編集の仕方
 
-First, run the development server:
+このリポジトリをローカル環境にクローンする
+
+1. "Code"から"HTTPS"をコピー
+   <img src="public/readme_img/スクリーンショット 2024-05-28 11.47.49.png">
+2. ターミナル以下を実行
+
+```bash
+git clone [さっきコピーしたURL]
+```
+
+3. node モジュールをインストールする
+
+```
+npm i
+```
+
+準備はこれで Ok
+
+## ローカルホストを起動する
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[http://localhost:3000](http://localhost:3000) ローカルホスト 3000 で起動
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## github の基本操作
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+git add -A ← 全ての変更されたファイルをcommit対象に追加
 
-## Learn More
+git commit -m "変更点を記入"
 
-To learn more about Next.js, take a look at the following resources:
+git push ← github上にアップロード
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+git fetch ← 最新の状態に更新
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+git branch ← 今いるブランチを確認
 
-## Deploy on Vercel
+git checkout [ブランチ名] ← ブランチを変更
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### VScode 上でも git の操作ができる
+
+<img src="public/readme_img/スクリーンショット 2024-05-28 12.36.19.png">
+<img src="public/readme_img/スクリーンショット 2024-05-28 12.37.30.png">
+<img src="public/readme_img/スクリーンショット 2024-05-28 12.38.28.png">
