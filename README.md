@@ -50,3 +50,8 @@ git checkout [ブランチ名] ← ブランチを変更
 <img src="public/readme_img/スクリーンショット 2024-05-28 12.36.19.png">
 <img src="public/readme_img/スクリーンショット 2024-05-28 12.37.30.png">
 <img src="public/readme_img/スクリーンショット 2024-05-28 12.38.28.png">
+
+## ファイル管理
+
+ソースファイルは app 内に格納
+app 内にフォルダを作成して
