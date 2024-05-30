@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
       <ul>
         <li><Link href="/">Home</Link></li>
         <li><Link href="/about">About</Link></li>
-        <li><Link href="/contact">Contact</Link></li>
+        <li><Link href="/member">Member</Link></li>
       </ul>
       <style jsx>{`
         nav {
