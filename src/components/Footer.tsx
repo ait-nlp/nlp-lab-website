@@ -1,7 +1,9 @@
+'use client';
+
 const Footer: React.FC = () => {
     return (
       <footer>
-        <p>&copy; 2024 My Next.js App</p>
+        <p>&copy; 2024 AIT NLP laboratory</p>
         <style jsx>{`
           footer {
             text-align: center;

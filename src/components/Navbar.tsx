@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 
 const Navbar: React.FC = () => {
@@ -11,7 +13,7 @@ const Navbar: React.FC = () => {
       <style jsx>{`
         nav {
           background: #333;
-          padding: 1rem;
+          padding: 0.1rem;
         }
         ul {
           display: flex;
