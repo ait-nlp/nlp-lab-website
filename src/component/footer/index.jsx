@@ -6,6 +6,7 @@ function index() {
     <div>
         <h1 className={styles.title} >test</h1>
         <h2>test2222</h2>
+        <h2>test3333</h2>
     </div>
   )
 }
