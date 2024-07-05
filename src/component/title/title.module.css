@@ -1,0 +1,19 @@
+.title {
+  width: 80%;
+  background-color: #d8eefe;
+  margin: auto;
+  margin-top: 100px;
+  padding: 50px;
+}
+
+.title h2 {
+  text-align: center;
+  color: #094067;
+  font-size: 40px;
+}
+
+.title p {
+  text-align: center;
+  color: #5f6c7b;
+  font-size: 20px;
+}

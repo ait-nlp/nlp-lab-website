@@ -30,7 +30,7 @@
     "src/app/page.jsx",
     "src/app/layout.tsx",
     "src/app/page.jsx",
-    "src/app/form/page.jsx"
+    "src/app/contact/page.jsx"
   ],
   "exclude": ["node_modules"]
 }
