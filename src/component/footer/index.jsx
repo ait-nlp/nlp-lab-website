@@ -1,14 +1,30 @@
-import React from 'react'
-import styles from './footer.module.css'
+import React from 'react';
+import styles from './footer.module.css';
+import './index.css'; // グローバルスタイルをインポート
 
-function index() {
+function Index() {
   return (
     <div>
-        <h1 className={styles.title} >test</h1>
-        <h2>test2222</h2>
-        <h2>test3333</h2>
+      <header className={styles.header}>
+        <h1 className={styles.title}>愛知工業大学 自然言語処理研究室</h1>
+      </header>
+      <nav className={styles.nav}>
+        <a href="#" className={styles.link}>HOME</a>
+        <a href="#" className={styles.link}>ABOUT</a>
+        <a href="#" className={styles.link}>MEMBER</a>
+        <a href="#" className={styles.link}>ACHIEVEMENTS</a>
+        <a href="#" className={styles.link}>CONTACT</a>
+      </nav>
+      <div className={styles.dots}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <footer className={styles.footer}>
+        © 2024 AIT NLP TOKUHISA LAB.
+      </footer>
     </div>
-  )
+  );
 }
 
-export default index
+export default Index;
