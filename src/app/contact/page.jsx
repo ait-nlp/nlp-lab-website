@@ -12,18 +12,32 @@ function Contact() {
       <Nav />
       <Title title={PAGE_TITLE} discription={PAGE_DISCRIPTION} />
 
-      <form action='' className={styles.contactForm}>
+      <form
+        action={process.env.Form_URL}
+        method='POST'
+        target='hidden_iframe'
+        onSubmit='submitted=true'
+        className={styles.contactForm}
+      >
         <label>お名前</label>
-        <input type='text' placeholder='お名前' />
+        {/* <input name='entry.313927708' type='text' placeholder='お名前' /> */}
+        <input name={`entry.${process.env.NAME_ID}`} type='text' placeholder='お名前' />
 
         <label>お名前 (ふりがな)</label>
-        <input type='text' placeholder='お名前 (ふりがな)' />
+        <input
+          name={`entry.${process.env.NAME_RUBY_ID}`}
+          type='text'
+          placeholder='お名前 (ふりがな)'
+        />
 
         <label>メールアドレス</label>
-        <input type='email' placeholder='メールアドレス' />
+        <input name={`entry.${process.env.MAIL_ID}`} type='email' placeholder='メールアドレス' />
 
         <label>お問い合わせ内容</label>
-        <textarea placeholder='お問い合わせ内容をご記入ください'></textarea>
+        <textarea
+          name={`entry.${process.env.CONTENT_ID}`}
+          placeholder='お問い合わせ内容をご記入ください'
+        ></textarea>
 
         <button type='submit'>送信する</button>
       </form>
