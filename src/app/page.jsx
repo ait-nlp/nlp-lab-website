@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import style from './staticMain.module.css'
+import Footer from '@/component/footer/index'
 import Nav from '@/component/navigation/nav'
 
 export default function Home() {
@@ -131,6 +132,7 @@ export default function Home() {
             <p>こちらのメールアドレスにご連絡ください。</p>
           </div>
         </section>
+        <Footer />
       </main>
     </>
   )
