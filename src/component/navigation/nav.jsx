@@ -7,19 +7,19 @@ function nav() {
       <nav className={styles.navbar}>
         <ul>
           <li>
-            <a href='#'>HOME</a>
+            <a href='#HOME'>HOME</a>
           </li>
           <li>
-            <a href='#'>ABOUT</a>
+            <a href='#ABOUT'>ABOUT</a>
           </li>
           <li>
-            <a href='#'>MEMBER</a>
+            <a href='#MEMBER'>MEMBER</a>
           </li>
           <li>
-            <a href='#'>ACHIEVEMENT</a>
+            <a href='#ACHIEVEMENT'>ACHIEVEMENT</a>
           </li>
           <li>
-            <a href='#'>CONTACT</a>
+            <a href='#CONTACT'>CONTACT</a>
           </li>
         </ul>
       </nav>
