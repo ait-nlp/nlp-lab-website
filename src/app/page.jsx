@@ -132,8 +132,8 @@ export default function Home() {
             <p>こちらのメールアドレスにご連絡ください。</p>
           </div>
         </section>
-        <Footer />
       </main>
+      <Footer />
     </>
   )
 }
