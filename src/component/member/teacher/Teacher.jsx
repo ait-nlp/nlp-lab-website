@@ -1,12 +1,12 @@
 import Image from 'next/image';
-import styles from '@app/staticMain.module.css';
+import styles from './staticMain.module.css';
 
 export default function Teacher({ teacher }) {
   return (
-    <div className={style.teacher}>
+    <div className={styles.teacher}>
       <h3>{teacher.title}</h3>
-      <div className={style.profInfo}>
-        <div className={style.profImage}>
+      <div className={styles.profInfo}>
+        <div className={styles.profImage}>
           <Image
             src={teacher.image}
             alt={teacher.name}

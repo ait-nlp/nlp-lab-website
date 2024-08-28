@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import styles from '@app/staticMain.module.css';
+import styles from './staticMain.module.css';
 
 export default function Student({ student }) {
   return (
-    <div className={style.student}>
-      <div className={style.MemberImage}>
+    <div className={styles.student}>
+      <div className={styles.MemberImage}>
         <Image
           src={student.image}
           alt={student.name}
