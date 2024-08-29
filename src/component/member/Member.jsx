@@ -16,6 +16,16 @@ export default function Member() {
       image: '/member_img/testicon.jpg',
       description: 'がおーーーーーーーーーーーーーーー',
     },
+    {
+        name: 'ライオン',
+        image: '/member_img/testicon.jpg',
+        description: 'がおーーーーーーーーーーーーーーー',
+      },
+      {
+        name: 'ライオン',
+        image: '/member_img/testicon.jpg',
+        description: 'がおーーーーーーーーーーーーーーー',
+      },
     // Add more student objects here
   ];
 
