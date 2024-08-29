@@ -4,7 +4,6 @@ import styles from './staticMain.module.css';
 export default function Teacher({ teacher }) {
   return (
     <div className={styles.teacher}>
-      <h3>{teacher.title}</h3>
       <div className={styles.profInfo}>
         <div className={styles.profImage}>
           <Image

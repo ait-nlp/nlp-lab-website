@@ -4,9 +4,10 @@ import styles from './staticMain.module.css';
 
 export default function MemberList({ teachers, students }) {
   return (
-    <div className={styles.memberList}>
+    <section id='member' className={styles.section}>
+     <div className={styles.member}>
       <h2>Member</h2>
-      <div className={styles.teachers}>
+      <div className={styles.professor}>
         <h3>教員情報</h3>
         {teachers.map((teacher, index) => (
           <Teacher key={index} teacher={teacher} />
@@ -20,6 +21,7 @@ export default function MemberList({ teachers, students }) {
           ))}
         </div>
       </div>
-    </div>
+     </div>
+    </section>
   );
 }
