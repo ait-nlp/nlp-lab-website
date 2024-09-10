@@ -1,10 +1,10 @@
-import Nav from '@/component/navigation/nav';
-import Footer from '@/component/footer/index';
-import About from '@/component/about/About';
-import News from '@/component/news/News';
-import Member from '@/component/member/Member';
-import Contact from '@/component/contact/Contact';
-import style from './staticMain.module.css';
+import style from './staticMain.module.css'
+import About from '@/component/about/About'
+import Contact from '@/component/contact/Contact'
+import Footer from '@/component/footer/index'
+import Member from '@/component/member/Member'
+import Nav from '@/component/navigation/nav'
+import News from '@/component/news/News'
 
 export default function Home() {
   return (
@@ -26,5 +26,5 @@ export default function Home() {
       </main>
       <Footer />
     </>
-  );
+  )
 }
